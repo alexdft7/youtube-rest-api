@@ -1,13 +1,13 @@
 package com.alexdft.youtubeRestApi.item;
 
-public class YouTubeSearchItem {
+public class YoutubeSearchItem {
 
     private String title;
     private String description;
     private String thumbnails;
     private String url;
 
-    public YouTubeSearchItem(String url, String title, String thumbnails, String description) {
+    public YoutubeSearchItem(String url, String title, String thumbnails, String description) {
         this.title=title;
         this.description=description;
         this.thumbnails=thumbnails;

@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequestMapping
 public class YoutubeRestController {
 
     private YoutubeService service;

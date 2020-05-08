@@ -1,27 +1,17 @@
 package com.alexdft.youtubeRestApi.item;
 
-public class YouTubeCommentItem {
+public class YoutubeCommentsItem {
 
-    private String Id;
     private String authorDisplayName;
     private String commentContent;
     private String likeCount;
     private String publishingTime;
 
-    public YouTubeCommentItem(String Id, String authorDisplayName, String commentContent, String likeCount, String publishingTime) {
-        this.Id=Id;
+    public YoutubeCommentsItem(String authorDisplayName, String commentContent, String likeCount, String publishingTime) {
         this.authorDisplayName=authorDisplayName;
         this.commentContent=commentContent;
         this.likeCount=likeCount;
         this.publishingTime=publishingTime;
-    }
-
-    public String getId() {
-        return Id;
-    }
-
-    public void setId(String id) {
-        Id = id;
     }
 
     public String getAuthorDisplayName() {
