@@ -1,5 +1,6 @@
 # youtube-rest-api
 Приложение Rest API (Java, Spring) для доступа к Youtube Search и Youtube Comments.
+
 Чтобы воспользоваться им, внесите ваш Youtube API Key в youtube.properties.
 Доступ к Youtube Search можно получить по адресу /search?request="{Ваш запрос}"
 Доступ к Youtube Comments можно получить по адресу /comments/{Id комментария}
